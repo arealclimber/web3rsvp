@@ -1,4 +1,8 @@
-# Sample Hardhat Project
+# Web3RSVP - Solidity Part
+
+It's developed with WSL - Ubuntu and dependencies with npm (hardhat `@nomicfoundation/hardhat-toolbox`).
+
+## Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
