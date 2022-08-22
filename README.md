@@ -1,5 +1,5 @@
 This project is composed of three parts:
 
 1. Solidity smart contract code
-2. Subgraph - The Graph
+2. Subgraph - [The Graph](https://thegraph.com/hosted-service)
 3. Frontend
