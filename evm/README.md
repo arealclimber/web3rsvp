@@ -1,6 +1,6 @@
 # Web3RSVP - Solidity Part
 
-It's developed with WSL - Ubuntu and dependencies with npm (hardhat `@nomicfoundation/hardhat-toolbox`).
+It's developed with WSL - Ubuntu and dependencies with npm (hardhat `@nomicfoundation/hardhat-toolbox`) in the beginning, however, it's changed to `pnpm`.
 
 ## Sample Hardhat Project
 
