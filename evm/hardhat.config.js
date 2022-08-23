@@ -3,8 +3,14 @@ require('dotenv').config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
 
-const { INFURA_URL, PRIVATE_KEY, RINKEBY_URL, MUMBAI_API_KEY, RINKEBY_API_KEY } =
-	process.env;
+const {
+	INFURA_URL,
+	PRIVATE_KEY,
+	RINKEBY_URL,
+	POLYGON_API_KEY,
+	ETHERSCAN_API_KEY,
+	GOERLI_URL,
+} = process.env;
 
 module.exports = {
 	solidity: {
@@ -17,6 +23,10 @@ module.exports = {
 		},
 		localhost: {
 			url: 'http://127.0.0.1:8545',
+		},
+		goerli: {
+			url: GOERLI_URL,
+			accounts: [`0x${PRIVATE_KEY}`],
 		},
 		mumbai: {
 			url: INFURA_URL,
@@ -31,8 +41,9 @@ module.exports = {
 	},
 	etherscan: {
 		apiKey: {
-			polygonMumbai: MUMBAI_API_KEY,
-			rinkeby: RINKEBY_API_KEY,
+			polygonMumbai: POLYGON_API_KEY,
+			goerli: ETHERSCAN_API_KEY,
+			rinkeby: ETHERSCAN_API_KEY,
 		},
 	},
 };
