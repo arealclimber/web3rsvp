@@ -1,4 +1,4 @@
-This project is composed of three parts powered by `pnpm`:
+This project is composed of three parts using `pnpm`:
 
 1. Solidity smart contract code
 2. Subgraph - [The Graph](https://thegraph.com/hosted-service)
